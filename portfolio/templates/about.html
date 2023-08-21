@@ -1,0 +1,115 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>About</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Personal Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{% url 'about' %}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <strong><h5 class="card-title">Personal Information</h5></strong>
+                                <p class="card-text">I'm a passionate web developer and an enthusiastic undergraduate student on a journey to find innovative solutions through coding.</p>
+                                <div class="card-info">
+                                    <strong>Name: </strong> Muhammad Hasnain Asim<br><br>
+                                    <strong>Age: </strong> 20 <br><br>
+                                    <strong>Email: </strong> hasnainasim799@gmail.com<br><br>
+                                    <strong>Contact Numer: </strong> +92 311 6729074<br><br>
+                                    <strong>Institute:</strong> University of Engineering and Technology, Main Campus Lahore<br><br>
+                                    <strong>Experience:</strong> Intern at TechnoHack EduTech Official<br><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Part of ACM Web Fellowship Program<br><br>
+                                    <strong>Skills: </strong> Web Development, Front-End Development, Back-End Development, Django Development<br><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python Developer, HTML, CSS, JavaScript, Bootstrap, C++, JAVA, Problem Solving, Hosting<br><br>
+                                    <strong>Certifications: </strong> Front-End Development-HTML, CSS<br><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crash Course Front-end Development- HTML, CSS, JavaScript<br><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Certificate of Appreciation UTS 2.0, UTS 3.0<br><br>
+                                    <strong>Others: </strong> Hosted the First Ever In-Person AWS Community Day on 1st October 2022 <br><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://scontent.flhe2-4.fna.fbcdn.net/v/t39.30808-6/336874409_1611955135944822_6286008480955787727_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeH5blITrr-suNaryFYy2FbcVa3RMV51WCVVrdExXnVYJduRDaQ-h62bVnNUSXplIUeibvNDvpXGNlBZAjIP9Nwp&_nc_ohc=Uqu1S0Arf9gAX_WSSl6&_nc_zt=23&_nc_ht=scontent.flhe2-4.fna&oh=00_AfBqt09tdYH9KAX-J2ywwN27YiftQR_mDJqmc-h8RW79bg&oe=64E8CC71"
+     class="card-img" alt="..."> <strong><p class="text-center mt-2">Hi! I am Hasnain!</p></strong>
+ 
+               
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white py-2 mt-3">
+        <div class="container text-center">
+            <h2 class="mb-4">Connect with me</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://github.com/https://github.com/hasnainasim1" target="_blank" class="text-white">
+                        <i class="fab fa-github fa-3x"></i>
+                        <p>GitHub</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.instagram.com/https://www.instagram.com/hasnainnnn._//" target="_blank" class="text-white">
+                        <i class="fab fa-instagram fa-3x"></i>
+                        <p>Instagram</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/muhammad-hasnain-asim-321937235/" target="_blank" class="text-white">
+                        <i class="fab fa-linkedin fa-3x"></i>
+                        <p>LinkedIn</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer "class=py-2">
+        <p class="text-center bg-light text-dark">
+        Copyright | All Right Reserved
+    </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
